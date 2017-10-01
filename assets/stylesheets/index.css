@@ -1,0 +1,974 @@
+*{
+    box-sizing: border-box;
+   transition: 1s;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Droid Serif', serif;
+    margin: 0px;
+}
+
+.container{
+    padding-top: 10px;
+}
+
+.contain{
+    height: 753px;
+}
+
+header{
+    color: white;
+}
+
+header a{
+    color: white;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.start1{
+    display: flex;
+}
+
+.start1 i{
+    padding-top: 2px;
+    margin: 0px;
+    margin-right: 3px;
+}
+
+.social{
+    height: 35%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.social a{
+    margin-right: 10px;
+}
+
+.social a:hover{
+    color: white;
+}
+
+.social i{
+    padding: 0px;    
+    margin: 0px;
+    
+}
+
+
+
+.social .fa-facebook:hover{
+    color: #3b5998;
+}
+
+.social .fa-twitter:hover{
+    color: #0084b4;
+}
+
+.social .fa-rss:hover{
+    color: #ee802f;
+}
+
+.social .fa-vk:hover{
+    color: #45668e;
+}
+
+.mainh{
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left1{
+    display: flex;
+}
+
+.left1 a{
+    text-decoration: none;
+    display: flex;
+}
+
+.left1 a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.left1 p{
+    margin-top: 39px;
+    margin-left: 22px;
+    font-weight: 600;
+}
+
+.left1 h1{
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.right1{
+    display: flex;
+    padding-top: 35px;
+}
+
+.right1 ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.right1 ul li{
+    list-style: none;
+    padding: 0px 21px;
+    transition: 1s;
+   border: 2px solid transparent;
+}
+
+.right1 ul{
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+}
+
+.right1 ul hr{
+    width: 15px;
+    background-color: white;
+    position: relative;
+    top: -3px;
+    transform: rotateZ(90deg);
+}
+
+.right1 ul li:first-child{
+    border: 2px solid #FF5722;
+    
+}
+
+.right1 ul li:first-child a{
+    color: #FF5722;
+    
+}
+
+.right1 ul li:hover{
+    border: 2px solid #FF5722;
+}
+
+.right1 ul li:hover a{
+    color: #FF5722;
+}
+
+.right1 ul li i{
+    position: relative;
+    display: inline;
+    top: -3px;
+    left: 3px;
+}
+
+
+
+#banner{
+    background-image: url(../image/bg.jpg);
+    background-size: 100% 100%;
+    height: 750px;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.description{
+    color: white;
+    position: absolute;
+    width: 60%;
+    top: 42%;
+    left: 15%;
+}
+
+.description h1{
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 10px;
+    margin-bottom: 35px;
+}
+
+.description h3{
+    font-size: 1.8em;
+    font-weight: 400;
+    letter-spacing: .15em;
+line-height: 1.7em;
+}
+
+.bttn{
+      position: absolute;
+    left: 15%;
+    top: 87%;
+    background-color:#FF5722;
+    transition: 1s;
+}
+
+.bttn h2{
+    font-size: 24px;
+      padding: 5px 20px;
+    
+}
+
+.bttn:hover{
+    background-color: transparent;
+    border: 1.5px solid white;
+}
+
+.bttn a, .bttn a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.first{
+    margin-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Droid Serif', serif;
+    width: 100%;
+    height: 645px;
+/*    background-color: white;*/
+}
+.first h1, .second h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+.border1{
+
+    border-bottom: 2px solid #FF5722;
+    height: 5px;
+    width: 10%;
+    margin: 0 auto;
+}
+
+.first .only1{
+      padding: 4em 10.5em 3em 10.5em;
+    line-height: 25px;
+    font-size: 18px;
+    text-align: center;
+    
+}
+
+.first .media img{
+    height: 30%;
+    width: 40%;
+}
+
+.first .media h5{
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+    word-spacing: 7px;
+    
+}
+
+.second{
+   font-family: 'Droid Serif', serif;
+    width: 100%;
+    height: 775px;
+    background-color: #F0F0F0;
+    padding-top: 50px;
+}
+
+.parent{
+    padding-top: 80px;  
+    display: flex;
+    justify-content: space-around;
+}
+
+.parent i{
+       padding: 18px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: black;
+    font-size: 33px;
+    vertical-align: middle;
+    color: white;
+    position: relative;
+    top: 9px;
+    transition: 0.5s;
+    
+}
+
+.parent i:hover{
+    background-color: #FF5722;
+    border-color: #FF5722;
+}
+
+
+.leftp h5, .rightp h5{
+    padding-bottom: 8px; 
+}
+
+.leftp, .rightp{
+    padding-top: 80px;
+    
+}
+
+
+.leftp h5, .leftp p{
+    text-align: right;
+}
+
+.rightp h5, .rightp p{
+    text-align: left;
+    
+}
+
+.leftp .media, .rightp .media{
+    padding-bottom: 35px;
+}
+
+.leftp, .midp, .rightp{
+    width: 30%;
+    margin-right: 10px;
+}
+
+.media h5{
+     font-weight: 600;
+    word-spacing: 7px;
+}
+
+.midp img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+.third{
+    
+ font-family: 'Droid Serif', serif;
+  
+    background-image: url(../image/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    height: 450px;
+    width: 100%;
+    padding-top: 50px;
+    
+}
+
+
+.third h1{
+    font-size: 3em;
+    text-align: center;
+    color: white;
+}
+
+.third .third1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.third .third1 .thirda{
+    margin-top: 75px;
+    width: 22%;
+    text-align: center;
+}
+
+.third .third1 i{
+    transition: 0.5s;
+    padding-bottom: 30px;
+    font-size: 40px;
+    color: white;
+}
+
+.third .third1 h4, .third .third1 p{
+/*    text-align: center;*/
+    color: white;
+}
+
+.third .third1 h4{
+    padding-bottom: 30px;
+    color: #FF5722;
+}
+
+.third .third1 .thirda:hover i{
+    transform: rotateY(180deg);
+    color: #FF5722;
+}
+
+
+.fourth{
+    padding: 50px 0px;
+    height: 700px;
+    font-family: 'Droid Serif', serif;
+}
+
+.fourth h1{
+    text-align: center;
+    font-size: 3em;
+    font-weight: 500;
+}
+
+.fourth1{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fourthl{
+    color: #999999;
+    width: 25%;
+    padding-top: 15px;
+    
+    text-align: right;
+    font-size: 14px;
+}
+
+.fourthl a, .fourthl a:hover{
+    color: #999999;
+}
+
+.fourthl p{
+    font-size: 16px;
+}
+
+.fourth .fourth1 .fl1{
+    width: 98%;
+    margin-bottom: 20px;
+    
+}
+
+.fourth1 i{
+    font-size: 28px;
+    
+}
+
+.fourthm{
+    margin:0px 25px;
+    width: 85%;
+}
+
+.fourthm img{
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.border2{
+     text-align: right;
+    border-bottom: 2px solid #FF5722;
+    height: 5px;
+    width: 10%;
+    margin: 0 0 0 auto;
+}
+
+.fourth a h3{
+    font-size: 1.2em;
+    font-weight: 600;
+    color: black;
+    transition: 0.4s;
+    
+}
+
+.fourth a:hover{
+    text-decoration: none;
+}
+
+.fourth a h3:hover{
+    color: #FF5722;
+}
+
+.fourthr p{
+    padding-bottom: 25px;
+}
+
+.fourthr span{
+    color: #FF5722;
+    font-weight: 700;
+}
+
+.fourthm p, .fourthr p{
+        color: #999999;
+    font-size: .9em;
+    margin: 1em 0 0 0;
+    line-height: 1.8em;
+    font-weight: 500;
+}
+
+footer{
+    font-family: 'Droid Serif', serif;
+    height: 350px;
+    background-color: #111111;
+     
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer h4{
+    margin: 30px 0px 20px;
+    color: white;
+}
+
+footer p{
+    font-size: 0.9em;
+    font-family: 'Roboto', sans-serif;
+    color: #818181;
+    transition: 0.5s;
+}
+
+footer .f1{
+    width: 20%;
+    
+}
+
+footer .f1 i{
+    padding-right: 3.5px;
+}
+
+footer .f1 a:hover{
+text-decoration: none;
+    
+}
+
+footer .f1 a:hover i{
+    color: #818181;
+}
+
+footer .f1 a:hover p{
+    color: #FF5722;}
+
+
+input[type="text"], input[type="button"]{
+    height: 35px;
+}
+
+input[type="button"]{
+    width: 20%;
+    margin-left: 5px;
+    color: white;
+    background-color:#FF5722;
+    border: 1px solid #FF5722;
+}
+
+input[type="text"]{
+    width: 70%;
+}
+
+input[type="button"]:hover{
+    background-color:black;
+    border: 1px solid #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:992px){
+    
+    .mainh{
+        display: block;
+        
+    }
+    
+    .right1 ul, .left1 a{
+        margin: 0 auto;
+    }
+    
+    .right1 ul li{
+        padding: 0px 24px;
+    }
+    
+/*
+    .description{
+        width: 50%;
+    }
+*/
+    
+/*
+    .description h1, .description h3{
+        margin: 0 auto;
+    }
+*/
+    
+    .description h1{
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+    
+    .description h3{
+        font-size: 26px;
+    }
+    
+    .description{
+        color: white;
+        position: absolute;
+        width: 65%;
+        top: 42%;
+        left: 20%;
+    }
+    
+    .bttn{
+       
+        top: 80%;
+
+        left: 20%;
+    }
+    
+    .first{
+        height: 1020px;
+    }
+    
+    .first .only1{
+        padding: 4em 0em 3em;
+        width: 100%;
+    }
+    
+    .first .media{
+        display: block;
+    }
+    
+    .first .media img{
+        width: 100%;
+    }
+    
+    .first .media .media-body h5{
+        text-align: left;
+        padding: 18px 0px;
+    }
+    
+     .first .media .media-body p{
+        text-align: left;
+        padding: 0px 0px;
+    }
+    
+   
+    
+    .second{
+        height: 2115px;
+    }
+    
+    
+    
+    .parent{
+        display: block;
+        padding-top: 0px;
+    }
+    
+     .parent i{
+        top: 0px;
+    }
+    
+    .leftp, .rightp, .midp{
+        width: 100%;
+    }
+    
+    .leftp .media .media-body{
+        padding-right: 100px;
+    }
+    
+    .rightp .media .media-body{
+        padding-left: 100px;
+    }
+    
+    .third{
+        height: 1020px;
+    }
+    
+    .third .third1 .thirda{
+        width: 100%;
+    }
+    
+    .third .third1{
+        display: block;
+    }
+    
+     .third .third1 .thirda i, .third .third1 .thirda h4{
+        padding-bottom: 18px;        
+    }
+    
+    
+    
+    .fourth{
+        height: 1215px;
+    }
+    
+    .fourth .fourth1{
+        display: block;
+    }
+    
+    .fourth .fourth1 .fourthl, .fourth .fourth1 .fourthm{
+        display: inline-block;
+    }
+    
+    .fourth .fourth1 .fourthl{
+        width: 20%;
+        position: relative;
+        top: -250px;
+    }
+    
+    .fourth .fourth1 .fourthm{
+        width: 70%;
+    }
+    
+    
+    .footer{
+        display: block;
+    }
+    footer{
+        
+        height: 900px;
+    }
+
+    footer .f1{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    
+    footer .f1 p{
+        widows: 100%;
+    }
+    
+    footer .f1 input[type="button"]{
+        width: 50px;
+    }
+    
+
+}
+
+
+@media(max-width:768px){
+    .right1{
+        display: none;
+    }
+    
+    #banner
+    {
+        height: 580px;
+    }
+    
+    .bttn{
+        top: 87%;
+    }
+    
+    .description{
+        top: 31%;
+    }
+    
+    .description h1{
+        font-size: 45px;
+    }
+    
+    .description h3{
+        font-size: 24px;
+    }
+    
+    .second .parent .midp img{
+        height: 550px;
+    }
+    
+    .second{
+        height: 1750px;
+    }
+    
+    .footer{
+        display: block;
+    }
+    
+    .fourth{
+        height: 1190px;
+    }
+    
+    .fourth .fourth1 .fourthm{
+        width: 66%;
+        
+    }
+    
+    .fourth .fourth1 .fourthl{
+        top: -200px;
+    }
+}
+
+
+
+@media(max-width:576px){
+    
+    .left1 h1{
+        font-size: 50px;
+    }
+    
+    .left1 p{
+        position: relative;
+        top: -10px;
+        left: -10px;
+    }
+    
+    .description{
+        width: 85%;
+        left: 10%;
+    }
+    
+    .description h1{
+        font-size: 35px;
+    }
+    
+    .first h1{
+        font-size: 30px;
+    }
+    
+  
+    
+    .description h3{
+        font-size: 17px;
+    }
+    
+    .bttn h2{
+        font-size: 18px;
+        padding: 3px 16px;
+    }
+    
+     .leftp .media .media-body{
+        padding-right: 10px;
+    }
+    
+    .rightp .media .media-body{
+        padding-left: 10px;
+    }
+    
+    .second{
+        height: 1280px;
+    }
+    
+    .parent{
+        padding-top: 0px;
+    }
+    
+    .second h1{
+        font-size: 30px;
+    }
+    
+    .leftp{
+        padding-top: 35px;
+    }
+    
+    .leftp .media, .rightp .media{
+        padding-bottom: 20px;
+    }
+    
+    .leftp i, .rightp i{
+        padding: 10px;
+        font-size: 25px;
+        top: 12px;
+    }
+    
+    .leftp .media .media-body h5, .rightp .media .media-body h5{
+        font-size: 18px;
+        
+    }
+    
+    .leftp .media .media-body p, .rightp .media .media-body p{
+        font-size: 14px;
+    }
+    
+    .second .parent .midp img{
+        height: 400px;
+    }
+    
+    .rightp{
+        padding-top: 30px;
+    }
+    
+    .rightp .media .media-body{
+        width: 50px;
+    }
+    
+    .leftp .media{
+      padding-left: 40px;
+    }
+    
+    .rightp .media{
+        padding-right: 40px;
+    }
+    
+    .third{
+        height: 900px;
+    }
+    
+    .third h1{
+        font-size: 30px;
+    }
+    
+    .third .third1 .thirda{
+        margin-top: 30px;
+    }
+    
+    .third .third1 .thirda i{
+       padding: 13px;
+        font-size: 30px;
+    }
+    
+    .third .third1 .thirda h4{
+        font-size: 20px;
+    }
+    
+    .third .third1 .thirda p{
+        margin-bottom: 0px;
+    }
+    
+    .fourth{
+        height: 1500px;
+    }
+    
+    .fourth h1{
+        font-size: 30px    
+    }
+    
+    .fourth .fourth1 .fourthm{
+        width: 60%;
+    }
+    
+    .fourth .fourth1 .fourthm img{
+        width: 115%;
+    }
+    
+    .fourth .fourth1 .fourthl{
+        top: -355px;
+    }
+    
+    .fourthl .fl1 i{
+        font-size: 25px;
+    }
+    
+    .fourthl .fl1 p{
+        font-size: 11px;
+    }
+    
+    footer{
+        height: 877px;
+    }
+    
+}
+
+
+@media(max-width:490px){
+    
+    
+    .description{
+        left: 10%;
+    }
+    .description h1{
+        font-size: 30px;
+    }
+    
+    .description p{
+        font-size: 16px;
+    }
+}
