@@ -533,12 +533,21 @@ text-decoration: none;
     
 }
 
-footer .f1 a:hover i{
-    color: #818181;
+footer .f1 a:hover{
+    color: #FF5722;
 }
 
 footer .f1 a:hover p{
     color: #FF5722;}
+
+.footer .f1 a{
+    color: #818181;
+}
+
+.footer .f1 .pcl{
+
+    margin-top: 16px;
+}
 
 
 input[type="text"], input[type="button"]{
