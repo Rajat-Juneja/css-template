@@ -16,9 +16,13 @@ body{
 .container{
     padding-top: 10px;
 }
+ 
+.contain .top .start1 .fa{
+    transition: 0s;
+}
 
-.contain{
-    height: 753px;
+.contain .top .start1 p{
+    transition: 0s;
 }
 
 header{
@@ -131,6 +135,10 @@ header a{
    border: 2px solid transparent;
 }
 
+.right1 ul .fa{
+    transition: 0s;
+}
+
 .right1 ul{
     display: flex;
     justify-content: space-between;
@@ -208,6 +216,7 @@ line-height: 1.7em;
     top: 87%;
     background-color:#FF5722;
     transition: 1s;
+    border: 1px solid transparent;
 }
 
 .bttn h2{
@@ -218,7 +227,7 @@ line-height: 1.7em;
 
 .bttn:hover{
     background-color: transparent;
-    border: 1.5px solid white;
+    border: 1px solid white;
 }
 
 .bttn a, .bttn a:hover{
@@ -231,7 +240,7 @@ line-height: 1.7em;
     padding-bottom: 50px;
     font-family: 'Droid Serif', serif;
     width: 100%;
-    height: 645px;
+/*    height: 645px;*/
 /*    background-color: white;*/
 }
 .first h1, .second h1{
@@ -351,9 +360,9 @@ line-height: 1.7em;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
-    height: 450px;
+/*    height: 450px;*/
     width: 100%;
-    padding-top: 50px;
+    padding: 50px 0px;
     
 }
 
@@ -365,13 +374,14 @@ line-height: 1.7em;
 }
 
 .third .third1{
+    width: 100%;
     display: flex;
     justify-content: space-around;
 }
 
 .third .third1 .thirda{
     margin-top: 75px;
-    width: 22%;
+    width: 31%;
     text-align: center;
 }
 
@@ -383,7 +393,6 @@ line-height: 1.7em;
 }
 
 .third .third1 h4, .third .third1 p{
-/*    text-align: center;*/
     color: white;
 }
 
@@ -400,7 +409,7 @@ line-height: 1.7em;
 
 .fourth{
     padding: 50px 0px;
-    height: 700px;
+/*    height: 700px;*/
     font-family: 'Droid Serif', serif;
 }
 
@@ -420,6 +429,7 @@ line-height: 1.7em;
     color: #999999;
     width: 25%;
     padding-top: 15px;
+/*    margin-bottom: 50px;*/
     
     text-align: right;
     font-size: 14px;
@@ -497,7 +507,7 @@ line-height: 1.7em;
 
 footer{
     font-family: 'Droid Serif', serif;
-    height: 350px;
+    
     background-color: #111111;
      
 }
@@ -547,6 +557,10 @@ footer .f1 a:hover p{
 .footer .f1 .pcl{
 
     margin-top: 16px;
+}
+
+.footer .fa{
+    transition: 0s;
 }
 
 
@@ -632,9 +646,7 @@ input[type="button"]:hover{
         left: 20%;
     }
     
-    .first{
-        height: 1020px;
-    }
+   
     
     .first .only1{
         padding: 4em 0em 3em;
@@ -949,7 +961,7 @@ input[type="button"]:hover{
     }
     
     .fourth .fourth1 .fourthl{
-        top: -355px;
+        top: -280px;
     }
     
     .fourthl .fl1 i{
@@ -967,6 +979,10 @@ input[type="button"]:hover{
 }
 
 
+
+
+
+
 @media(max-width:490px){
     
     
@@ -980,4 +996,11 @@ input[type="button"]:hover{
     .description p{
         font-size: 16px;
     }
+/*
+    
+    .fourth .fourth1 .fourthl{
+        position: relative;
+        top: -270px;
+    }
+*/
 }
